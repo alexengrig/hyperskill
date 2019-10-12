@@ -4,4 +4,4 @@
 
 ## [Projects](https://hyperskill.org/projects)
 
-### [Encryption-Decryption](https://hyperskill.org/projects/46)
+- [Encryption-Decryption](https://hyperskill.org/projects/46)
