@@ -21,8 +21,9 @@ subprojects {
 
     dependencies {
         testCompile group: 'junit', name: 'junit', version: '4.12'
+        implementation 'com.github.stefanbirkner:system-rules:1.19.0'
         compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
-        testImplementation 'com.github.hyperskill:hs-test:788dd8cf2f09b39f18ee4c06053708b181ae0679'
+        testImplementation 'com.github.hyperskill:hs-test:v6'
     }
 
     sourceSets {
