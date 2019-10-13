@@ -1204,6 +1204,41 @@
                       </option>
                       <option name="updateDate" value="1541088438000" />
                     </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Parse url&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/3660&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;p&gt;You want to hack a website and get all available parameters. Print them &quot;&lt;b&gt;key : value&lt;/b&gt;&quot;. If you find the password (parameter &lt;b&gt;pass&lt;/b&gt;), you should print it after all parameters like in the sample. If a parameter doesn't have value print &quot;&lt;b&gt;not found&lt;/b&gt;&quot;.&lt;/p&gt;&#10;  &lt;p&gt;&lt;b&gt;Note&lt;/b&gt;: the order of parameters should like as in the url. If a url does not contain parameter &lt;b&gt;pass&lt;/b&gt;, do not print anything after parameters&lt;/p&gt;&#10;  &lt;p&gt;&lt;b&gt;Advice&lt;/b&gt;: learn the structure of URL. &amp;nbsp;&lt;/p&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;https://target.com/index.html?pass=12345&amp;port=8080&amp;cookie=&amp;host=localhost&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;pass : 12345&lt;br&gt;port : 8080&lt;br&gt;cookie : not found&lt;br&gt;host : localhost&lt;br&gt;password : 12345&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3551&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/3660" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="3660" />
+                      <option name="index" value="14" />
+                      <option name="name" value="Parse url" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="class Main {&#10;    public static void main(String[] args) {&#10;        // put your code here&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1541088493000" />
+                    </CodeTask>
                   </list>
                 </option>
               </Lesson>
