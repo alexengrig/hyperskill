@@ -1008,7 +1008,7 @@
                       <option name="index" value="8" />
                       <option name="name" value="The smallest value" />
                       <option name="record" value="-1" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="files">
                         <map>
                           <entry key="src/Main.java">
@@ -1028,6 +1028,41 @@
                         </map>
                       </option>
                       <option name="updateDate" value="1541088430000" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Even or odd&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/2153&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;p&gt;Given a sequence of natural numbers. For each number of the sequence output &quot;even&quot; if the number is even, otherwise, &lt;span&gt;&quot;odd&quot;. If the number is equal to 0, the program must stop reading and processing numbers.&lt;/span&gt;&lt;/p&gt; &#10;  &lt;p&gt;&lt;b&gt;Input data&lt;/b&gt;&lt;/p&gt;&#10;  &lt;p&gt;A sequence of natural numbers, each number in a new line.&lt;/p&gt;&#10;  &lt;p&gt;&lt;b&gt;Output data&lt;/b&gt;&lt;/p&gt;&#10;  &lt;p&gt;The sequence of words &quot;even&quot; and &quot;odd&quot;. Each word in a new line.&lt;/p&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;1&lt;br&gt;2&lt;br&gt;3&lt;br&gt;4&lt;br&gt;0&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;odd&lt;br&gt;even&lt;br&gt;odd&lt;br&gt;even&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3507&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/2153" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="2153" />
+                      <option name="index" value="9" />
+                      <option name="name" value="Even or odd" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="class Main {&#10;    public static void main(String[] args) {&#10;        // put your code here&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1541088422000" />
                     </CodeTask>
                   </list>
                 </option>
