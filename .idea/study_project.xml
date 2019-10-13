@@ -426,7 +426,6 @@
               <option name="id" value="46" />
               <option name="ideFiles" value="https://stepik.org/media/attachments/lesson/209884/additional_files.json" />
               <option name="language" value="java" />
-              <option name="templateBased" value="false" />
               <option name="title" value="Encryption-Decryption" />
               <option name="useIde" value="true" />
             </HyperskillProject>
@@ -1098,6 +1097,41 @@
                         </map>
                       </option>
                       <option name="updateDate" value="1570620558000" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;The (un)-ordered sequence&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/2734&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;p&gt;[ALERT-warning]Typical task for a job interview.[/ALERT]&lt;/p&gt; &#10;  &lt;p&gt;Write a program that reads a sequence of integer numbers and outputs &lt;strong&gt;true&lt;/strong&gt; if the sequence is ordered (in ascending or descending order), otherwise, &lt;strong&gt;false&lt;/strong&gt;. Keep in mind, if a number has the same value as the following number, it does not break the order.&lt;/p&gt; &#10;  &lt;p&gt;&amp;nbsp;&lt;/p&gt; &#10;  &lt;p&gt;The sequence ends with 0. Do not consider this number as a part of the sequence. The sequence always has at least one number (excluding 0).&lt;/p&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;9 8 7 6 5 4 3 2 1 0&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;true&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;1 2 3 3 9 0&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;true&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;1 2 5 5 2 3 0&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;false&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3507&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/2734" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="2734" />
+                      <option name="index" value="11" />
+                      <option name="name" value="The (un)-ordered sequence" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="class Main {&#10;    public static void main(String[] args) {&#10;        // put your code here&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1570620232000" />
                     </CodeTask>
                   </list>
                 </option>
