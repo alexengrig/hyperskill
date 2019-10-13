@@ -994,6 +994,41 @@
                       </option>
                       <option name="updateDate" value="1541088430000" />
                     </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;The smallest value&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/2229&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;p&gt;&lt;span&gt;A user inputs a long number &lt;/span&gt;&lt;i&gt;&lt;b&gt;M&lt;/b&gt;&lt;/i&gt;&lt;span&gt;. You need to find out what is the smallest long number &lt;/span&gt;&lt;b&gt;&lt;i&gt;n&lt;/i&gt;&lt;/b&gt;&lt;span&gt; such that &lt;/span&gt;&lt;b&gt;&lt;i&gt;n&lt;/i&gt;&lt;/b&gt;&lt;span&gt;! &amp;gt; &lt;/span&gt;&lt;b&gt;&lt;i&gt;M&lt;/i&gt;&lt;/b&gt;&lt;span&gt;.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&#10;  &lt;p&gt;Just in case: &lt;a href=&quot;https://en.wikipedia.org/wiki/Factorial&quot; rel=&quot;nofollow noopener noreferrer&quot; title=&quot;Link: https://en.wikipedia.org/wiki/Factorial&quot;&gt;wiki on factorials&lt;/a&gt;.&lt;/p&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;6188989133&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;13&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3498&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/2229" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="2229" />
+                      <option name="index" value="8" />
+                      <option name="name" value="The smallest value" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="class Main {&#10;    public static void main(String[] args) {&#10;        // put your code here&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1541088430000" />
+                    </CodeTask>
                   </list>
                 </option>
               </Lesson>
