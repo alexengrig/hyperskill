@@ -3,7 +3,7 @@ static String sanitizeName(String name) {
     return name.replaceAll("[ /\\\\:<>\"?*|()]", "_")
 }
 
-rootProject.name = 'Encryption-Decryption'
+rootProject.name = 'hyperskill'
 
 rootProject.projectDir.eachDirRecurse {
     if (!isTaskDir(it) || it.path.contains(".idea")) {
