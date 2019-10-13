@@ -1169,6 +1169,41 @@
                       </option>
                       <option name="updateDate" value="1541088441000" />
                     </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Count the number of times two chars occur in a string&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/2289&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;div&gt;&#10;   Write a program that counts the number of times that the two characters occur consecutively in a string. The order of characters should be the same as in the input.&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   &lt;br&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   Note, in the string &#10;   &lt;b&gt;&quot;bbb&quot;&lt;/b&gt; , the sequence &#10;   &lt;b&gt;&quot;bb&quot;&lt;/b&gt; occurs two times.&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   &lt;br&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   &lt;b&gt;Input data format&lt;/b&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   The single input line contains a string and two characters.&#10;  &lt;/div&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;abcd b c&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;1&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;cbbb b b&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;2&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3551&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/2289" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="2289" />
+                      <option name="index" value="13" />
+                      <option name="name" value="Count the number of times two chars occur in a string" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="class Main {&#10;    public static void main(String[] args) {&#10;        // put your code here&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1541088438000" />
+                    </CodeTask>
                   </list>
                 </option>
               </Lesson>
