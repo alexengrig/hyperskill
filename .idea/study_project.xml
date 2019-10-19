@@ -1554,6 +1554,111 @@
                       </option>
                       <option name="updateDate" />
                     </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Fix the program&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/3750&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  Given a program that reads three numbers and outputs their sum. &#10;  &lt;div&gt;&#10;   &lt;br&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   Now the program cannot compile.&#10;   &lt;div&gt;&#10;    &lt;br&gt;&#10;   &lt;/div&gt;&#10;   &lt;div&gt;&#10;    Fix all &#10;    &lt;b&gt;compile-time errors&lt;/b&gt; as well as &#10;    &lt;b&gt;logic-errors&lt;/b&gt;.&#10;   &lt;/div&gt;&#10;  &lt;/div&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;8 11 20&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;39&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3536&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/3750" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="3750" />
+                      <option name="index" value="24" />
+                      <option name="name" value="Fix the program" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="import java.util.Scanner;&#10;&#10;public class Main {&#10;    public static vo1d main(String args[]) {&#10;        Scanner scanner = new Scanner(System.in);&#10;&#10;        int a = scanner.nextInt(); &#10;        int b = scanner.nextInt();&#10;        int c = scanner.nextInt();&#10;&#10;        int sum = a - b - d;&#10;&#10;        System.out.println(sum); &#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" value="Fix the program" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Fix the program&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/3752&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  Given a program that reads one number and outputs it incremented by one. &#10;  &lt;div&gt;&#10;   &lt;br&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   Now the program cannot compile.&#10;   &lt;div&gt;&#10;    &lt;div&gt;&#10;     &lt;br&gt;&#10;    &lt;/div&gt;&#10;    &lt;div&gt;&#10;     Fix all &#10;     &lt;b&gt;compile-time errors&lt;/b&gt; as well as &#10;     &lt;b&gt;logic-errors.&lt;/b&gt;&#10;    &lt;/div&gt;&#10;   &lt;/div&gt;&#10;  &lt;/div&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;10&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;11&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3536&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/3752" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="3752" />
+                      <option name="index" value="25" />
+                      <option name="name" value="Fix the program (1)" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="port java.util.Scanner;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        Scanner scanner = new Scanner(System.in);&#10;&#10;        int number = scanner.nextInt();&#10;&#10;        System.out.println(nextInt);&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" value="Fix the program" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Fix the program&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/3751&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  Given a program that reads two lines and outputs them in another order. &#10;  &lt;div&gt;&#10;   &lt;br&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   Now the program cannot compile.&#10;   &lt;div&gt;&#10;    &lt;div&gt;&#10;     &lt;br&gt;&#10;    &lt;/div&gt;&#10;    &lt;div&gt;&#10;     Fix all &#10;     &lt;b&gt;compile-time errors&lt;/b&gt; as well as &#10;     &lt;b&gt;logic-errors.&lt;/b&gt;&#10;    &lt;/div&gt;&#10;   &lt;/div&gt;&#10;  &lt;/div&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;Hello,&lt;br&gt;Java!&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;Java!&lt;br&gt;Hello,&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3536&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/3751" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="3751" />
+                      <option name="index" value="26" />
+                      <option name="name" value="Fix the program (2)" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="import java.util.Scanner;&#10;&#10;public clazz Main {&#10;    public static void main(String args[]) {&#10;        scanner = new Scanner(System.in);&#10;&#10;        String line1 = scanner.nextLine();&#10;        String line2 = scanner.nextLine();&#10;&#10;        System.out.println(line1);&#10;        System.out.println(line2);&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" />
+                    </CodeTask>
                   </list>
                 </option>
               </Lesson>
