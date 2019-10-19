@@ -434,7 +434,7 @@
           <option name="items">
             <list>
               <FrameworkLesson>
-                <option name="currentTaskIndex" value="2" />
+                <option name="currentTaskIndex" value="3" />
                 <option name="customPresentableName" />
                 <option name="id" value="0" />
                 <option name="index" value="1" />
@@ -554,7 +554,7 @@
                       <option name="id" value="5389" />
                       <option name="index" value="3" />
                       <option name="name" value="Decrypted!" />
-                      <option name="record" value="-1" />
+                      <option name="record" value="3" />
                       <option name="status" value="Solved" />
                       <option name="files">
                         <map>
@@ -604,7 +604,7 @@
                       <option name="index" value="4" />
                       <option name="name" value="I command you" />
                       <option name="record" value="-1" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="files">
                         <map>
                           <entry key="test/EncryptDecryptTest.java">
@@ -627,7 +627,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/encryptdecrypt/Main.java" />
                                 <option name="text" value="package encryptdecrypt;&#10;&#10;import java.util.stream.Collectors;&#10;import java.util.stream.IntStream;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        Encryptor encryptor = new Encryptor();&#10;        System.out.println(encryptor.encrypt(&quot;we found a treasure!&quot;));&#10;    }&#10;&#10;    static class Encryptor {&#10;        private static final String ALPHABET = IntStream.rangeClosed('a', 'z')&#10;                .mapToObj(Character::toString)&#10;                .collect(Collectors.joining());&#10;        private static final int ALPHABET_LENGTH = ALPHABET.length();&#10;&#10;        public String encrypt(String input) {&#10;            StringBuilder builder = new StringBuilder();&#10;            for (int i = 0; i &lt; input.length(); i++) {&#10;                int index = ALPHABET.indexOf(input.charAt(i));&#10;                if (index &gt;= 0) {&#10;                    builder.append(ALPHABET.charAt(ALPHABET_LENGTH - index - 1));&#10;                } else {&#10;                    builder.append(input.charAt(i));&#10;                }&#10;            }&#10;            return builder.toString();&#10;        }&#10;    }&#10;}&#10;" />
                                 <option name="trackChanges" value="true" />
