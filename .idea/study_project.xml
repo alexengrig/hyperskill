@@ -1869,6 +1869,41 @@
                       </option>
                       <option name="updateDate" />
                     </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Account and its owner&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/2160&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;p&gt;There are two classes: &lt;strong&gt;Account&lt;/strong&gt; with three fields (&lt;code&gt;code&lt;/code&gt;, &lt;code&gt;balance&lt;/code&gt;, &lt;code&gt;owner&lt;/code&gt;) and &lt;strong&gt;User&lt;/strong&gt; with three fields (&lt;code&gt;login&lt;/code&gt;, &lt;code&gt;firstName&lt;/code&gt;, &lt;code&gt;lastName&lt;/code&gt;). Both classes have parameterized constructors. See full declarations of these classes in the code template. Do not be afraid of the &lt;code&gt;static&lt;/code&gt; keyword. It's not important now.&lt;/p&gt; &#10;  &lt;p&gt;In the main method, create an instance of the Account class and pass it to the process method by calling &lt;strong&gt;process(account)&lt;/strong&gt;. This method is already defined but hidden.&lt;/p&gt; &#10;  &lt;p&gt;The instance must have the following values of the fields:&lt;/p&gt; &#10;  &lt;ul&gt; &#10;   &lt;li&gt;code: &quot;123456&quot;,&lt;/li&gt; &#10;   &lt;li&gt;balance: 1000,&lt;/li&gt; &#10;   &lt;li&gt;owner: (login: &quot;demo-user&quot;, firstName: &quot;Alexander&quot;, lastName: &quot;Schmidt&quot;).&lt;/li&gt; &#10;  &lt;/ul&gt; &#10;  &lt;p&gt;Note that the owner is an instance of the &lt;b&gt;User&lt;/b&gt; class.&lt;/p&gt; &#10;  &lt;p&gt;See provided template, do not change it.&lt;/p&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3535&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/2160" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="2160" />
+                      <option name="index" value="33" />
+                      <option name="name" value="Account and its owner" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="public static void main(String[] args) {&#10;&#10;    // create an instance of Account here&#10;&#10;    // pass it into process method&#10;}&#10;&#10;static class Account {&#10;&#10;    private String code;&#10;    private Long balance;&#10;    private User owner;&#10;&#10;    public Account(String code, Long balance, User owner) {&#10;        this.code = code;&#10;        this.balance = balance;&#10;        this.owner = owner;&#10;    }&#10;&#10;    public String getCode() {&#10;        return code;&#10;    }&#10;&#10;    public Long getBalance() {&#10;        return balance;&#10;    }&#10;&#10;    public User getOwner() {&#10;        return owner;&#10;    }&#10;}&#10;&#10;static class User {&#10;&#10;    private String login;&#10;    private String firstName;&#10;    private String lastName;&#10;&#10;    public User(String login, String firstName, String lastName) {&#10;        this.login = login;&#10;        this.firstName = firstName;&#10;        this.lastName = lastName;&#10;    }&#10;&#10;    public String getLogin() {&#10;        return login;&#10;    }&#10;&#10;    public String getFirstName() {&#10;        return firstName;&#10;    }&#10;&#10;    public String getLastName() {&#10;        return lastName;&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" />
+                    </CodeTask>
                   </list>
                 </option>
               </Lesson>
