@@ -434,7 +434,7 @@
           <option name="items">
             <list>
               <FrameworkLesson>
-                <option name="currentTaskIndex" value="1" />
+                <option name="currentTaskIndex" value="2" />
                 <option name="customPresentableName" />
                 <option name="id" value="0" />
                 <option name="index" value="1" />
@@ -505,7 +505,7 @@
                       <option name="id" value="5388" />
                       <option name="index" value="2" />
                       <option name="name" value="Knowledge is key" />
-                      <option name="record" value="-1" />
+                      <option name="record" value="2" />
                       <option name="status" value="Solved" />
                       <option name="files">
                         <map>
@@ -515,7 +515,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="test/EncryptDecryptTest.java" />
                                 <option name="text" value="import encryptdecrypt.Main;&#10;import org.hyperskill.hstest.v6.stage.BaseStageTest;&#10;import org.hyperskill.hstest.v6.testcase.CheckResult;&#10;import org.hyperskill.hstest.v6.testcase.TestCase;&#10;&#10;import java.util.List;&#10;&#10;&#10;class Attach {&#10;    String original;&#10;    int shift;&#10;    String output;&#10;&#10;    public Attach(String original, int shift, String output) {&#10;        this.original = original;&#10;        this.shift = shift;&#10;        this.output = output;&#10;    }&#10;}&#10;&#10;public class EncryptDecryptTest extends BaseStageTest&lt;Attach&gt; {&#10;    public EncryptDecryptTest() {&#10;        super(Main.class);&#10;    }&#10;&#10;    @Override&#10;    public List&lt;TestCase&lt;Attach&gt;&gt; generate() {&#10;        return List.of(&#10;            new TestCase&lt;Attach&gt;()&#10;                .setInput(&quot;welcome to hyperskill\n5&quot;)&#10;                .setAttach(new Attach(&#10;                    &quot;welcome to hyperskill&quot;,&#10;                    5,&#10;                    &quot;bjqhtrj yt mdujwxpnqq&quot;)),&#10;&#10;            new TestCase&lt;Attach&gt;()&#10;                .setInput(&quot;treasure\n10&quot;)&#10;                .setAttach(new Attach(&#10;                    &quot;treasure&quot;,&#10;                    10,&#10;                    &quot;dbokcebo&quot;&#10;                )),&#10;&#10;            new TestCase&lt;Attach&gt;()&#10;                .setInput(&quot;qdvdqvrxqwxrxwpvrxspvxiqgdiqarairpbiqqid\n12&quot;)&#10;                .setAttach(new Attach(&#10;                    &quot;qdvdqvrxqwxrxwpvrxspvxiqgdiqarairpbiqqid&quot;,&#10;                    12,&#10;                    &quot;cphpchdjcijdjibhdjebhjucspucmdmudbnuccup&quot;&#10;                )),&#10;&#10;            new TestCase&lt;Attach&gt;()&#10;                .setInput(&quot;y\n10&quot;)&#10;                .setAttach(new Attach(&#10;                    &quot;y&quot;,&#10;                    10,&#10;                    &quot;i&quot;&#10;                ))&#10;        );&#10;    }&#10;&#10;    @Override&#10;    public CheckResult check(String reply, Attach attach) {&#10;        String clue = attach.output;&#10;        reply = reply.trim();&#10;        clue = clue.trim();&#10;        boolean isCorrect = reply.equals(clue);&#10;        if (isCorrect) {&#10;            return CheckResult.TRUE;&#10;        }&#10;        if (reply.length() != clue.length()) {&#10;            return CheckResult.FALSE(&#10;                &quot;You should output a line with length &quot; +&#10;                    clue.length() + &quot;. &quot; + &quot;You output a &quot; +&#10;                    &quot;line with length &quot; + reply.length()&#10;            );&#10;        }&#10;        for (int i = 0; i &lt; clue.length(); i++) {&#10;            if (reply.charAt(i) != clue.charAt(i)) {&#10;                return CheckResult.FALSE(&#10;                    &quot;Your &quot; + (i+1) + &quot;-th character '&quot; + reply.charAt(i) + &quot;'&quot; +&#10;                        &quot; is incorrect. \n&quot; +&#10;                    &quot;The right one is '&quot; + clue.charAt(i) + &quot;'. \n&quot; +&#10;                        &quot;Key is &quot; + attach.shift&#10;                );&#10;            }&#10;        }&#10;        return CheckResult.TRUE;&#10;    }&#10;}&#10;" />
                                 <option name="trackChanges" value="true" />
@@ -555,7 +555,7 @@
                       <option name="index" value="3" />
                       <option name="name" value="Decrypted!" />
                       <option name="record" value="-1" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="files">
                         <map>
                           <entry key="test/EncryptDecryptTest.java">
@@ -578,7 +578,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/encryptdecrypt/Main.java" />
                                 <option name="text" value="package encryptdecrypt;&#10;&#10;import java.util.stream.Collectors;&#10;import java.util.stream.IntStream;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        Encryptor encryptor = new Encryptor();&#10;        System.out.println(encryptor.encrypt(&quot;we found a treasure!&quot;));&#10;    }&#10;&#10;    static class Encryptor {&#10;        private static final String ALPHABET = IntStream.rangeClosed('a', 'z')&#10;                .mapToObj(Character::toString)&#10;                .collect(Collectors.joining());&#10;        private static final int ALPHABET_LENGTH = ALPHABET.length();&#10;&#10;        public String encrypt(String input) {&#10;            StringBuilder builder = new StringBuilder();&#10;            for (int i = 0; i &lt; input.length(); i++) {&#10;                int index = ALPHABET.indexOf(input.charAt(i));&#10;                if (index &gt;= 0) {&#10;                    builder.append(ALPHABET.charAt(ALPHABET_LENGTH - index - 1));&#10;                } else {&#10;                    builder.append(input.charAt(i));&#10;                }&#10;            }&#10;            return builder.toString();&#10;        }&#10;    }&#10;}&#10;" />
                                 <option name="trackChanges" value="true" />

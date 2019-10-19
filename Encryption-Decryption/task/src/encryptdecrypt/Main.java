@@ -4,20 +4,34 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        String alphabet = "abcdefghijklmnopqrstuvwxyz";
         Scanner scanner = new Scanner(System.in);
+        String operation = scanner.nextLine();
         String text = scanner.nextLine();
         int key = scanner.nextInt();
-        String cyphertext = "";
-        for (int i = 0, l = text.length(); i < l; i++) {
-            char ch = text.charAt(i);
-            int index = alphabet.indexOf(ch);
-            if (index > -1) {
-                cyphertext += alphabet.charAt((index + key) % alphabet.length());
-            } else {
-                cyphertext += ch;
-            }
+        String result;
+        if ("dec".equals(operation)) {
+            result = decrypt(text, key);
+        } else {
+            result = encrypt(text, key);
         }
-        System.out.println(cyphertext);
+        System.out.println(result);
+    }
+
+    @SuppressWarnings("StringConcatenationInLoop")
+    private static String encrypt(String message, int key) {
+        String cyphertext = "";
+        for (char ch : message.toCharArray()) {
+            cyphertext += (char) (ch + key);
+        }
+        return cyphertext;
+    }
+
+    @SuppressWarnings("StringConcatenationInLoop")
+    private static String decrypt(String cyphertext, int key) {
+        String message = "";
+        for (char ch : cyphertext.toCharArray()) {
+            message += (char) (ch - key);
+        }
+        return message;
     }
 }
