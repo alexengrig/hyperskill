@@ -1463,7 +1463,42 @@
                       <option name="index" value="21" />
                       <option name="name" value="Calculator - 1" />
                       <option name="record" value="-1" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="class Problem {&#10;&#10;    public static void main(String args[]) {&#10;&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Parameters and their values&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/3336&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  Write a program that takes command-line arguments in the format:&#10;  &lt;div&gt;&#10;   &lt;br&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   &lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;parameter1 value1 parameter2 value2 ...&lt;/code&gt;&lt;/pre&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   &lt;br&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   and outputs them in the standard output in the format:&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   &lt;br&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   &lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;parameter1=value1&#10;parameter2=value2&#10;...&lt;/code&gt;&lt;/pre&gt;&#10;   &lt;br&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   It is guaranteed, that each parameter is followed by a value.&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   &lt;br&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   Please, do not rename the provided class &#10;   &lt;code class=&quot;java&quot;&gt;Problem&lt;/code&gt;.&#10;  &lt;/div&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;config-path /something/there config-format json&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;config-path=/something/there&lt;br&gt;config-format=json&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3566&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/3336" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="3336" />
+                      <option name="index" value="22" />
+                      <option name="name" value="Parameters and their values" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
                       <option name="files">
                         <map>
                           <entry key="src/Main.java">
