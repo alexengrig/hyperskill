@@ -1638,6 +1638,111 @@
                       <option name="index" value="26" />
                       <option name="name" value="Fix the program (2)" />
                       <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="import java.util.Scanner;&#10;&#10;public clazz Main {&#10;    public static void main(String args[]) {&#10;        scanner = new Scanner(System.in);&#10;&#10;        String line1 = scanner.nextLine();&#10;        String line2 = scanner.nextLine();&#10;&#10;        System.out.println(line1);&#10;        System.out.println(line2);&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Users&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/2941&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  Write a class named &#10;  &lt;code class=&quot;java&quot;&gt;User&lt;/code&gt;. It must have three string fields: &#10;  &lt;code class=&quot;java&quot;&gt;login&lt;/code&gt;, &#10;  &lt;code class=&quot;java&quot;&gt;firstName&lt;/code&gt; and &#10;  &lt;code class=&quot;java&quot;&gt;lastName&lt;/code&gt;.&#10;  &lt;div&gt;&#10;   &lt;br&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   Note: do not make them &#10;   &lt;code class=&quot;java&quot;&gt;private&lt;/code&gt;.&#10;  &lt;/div&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3618&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/2941" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="2941" />
+                      <option name="index" value="27" />
+                      <option name="name" value="Users" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="// write your class here" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Books&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/2945&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  Write a class named &#10;  &lt;code class=&quot;java&quot;&gt;Book&lt;/code&gt;. It must have three fields: string field &#10;  &lt;code class=&quot;java&quot;&gt;title&lt;/code&gt;, int field &#10;  &lt;code class=&quot;java&quot;&gt;yearOfPublishing&lt;/code&gt; and an array of strings &#10;  &lt;code class=&quot;java&quot;&gt;authors&lt;/code&gt;.&#10;  &lt;div&gt;&#10;   &lt;br&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   Note: do not make them &#10;   &lt;code class=&quot;java&quot;&gt;private&lt;/code&gt;.&#10;  &lt;/div&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3618&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/2945" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="2945" />
+                      <option name="index" value="28" />
+                      <option name="name" value="Books" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="// write your class here" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Inner boxes&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/2946&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;p&gt;Define a class named &lt;code&gt;Box&lt;/code&gt;. It must have four fields:&lt;/p&gt; &#10;  &lt;ul&gt; &#10;   &lt;li&gt;&lt;code&gt;length&lt;/code&gt;, &lt;code&gt;height&lt;/code&gt; and &lt;code&gt;width&lt;/code&gt; of the &lt;code&gt;double&lt;/code&gt; type&lt;/li&gt; &#10;   &lt;li&gt;a field named &lt;code&gt;innerBox&lt;/code&gt; of the same type as the defined class&lt;/li&gt; &#10;  &lt;/ul&gt; &#10;  &lt;p&gt;Do not make fields &lt;code&gt;private&lt;/code&gt;.&lt;/p&gt; &#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3618&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/2946" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="2946" />
+                      <option name="index" value="29" />
+                      <option name="name" value="Inner boxes" />
+                      <option name="record" value="-1" />
                       <option name="status" value="Unchecked" />
                       <option name="files">
                         <map>
@@ -1649,7 +1754,7 @@
                                 </option>
                                 <option name="highlightErrors" value="false" />
                                 <option name="name" value="src/Main.java" />
-                                <option name="text" value="import java.util.Scanner;&#10;&#10;public clazz Main {&#10;    public static void main(String args[]) {&#10;        scanner = new Scanner(System.in);&#10;&#10;        String line1 = scanner.nextLine();&#10;        String line2 = scanner.nextLine();&#10;&#10;        System.out.println(line1);&#10;        System.out.println(line2);&#10;    }&#10;}" />
+                                <option name="text" value="// write your class here" />
                                 <option name="trackChanges" value="true" />
                                 <option name="visible" value="true" />
                               </TaskFile>
