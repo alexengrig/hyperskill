@@ -1393,7 +1393,7 @@
                       <option name="index" value="19" />
                       <option name="name" value="Inverse boolean flags" />
                       <option name="record" value="-1" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="files">
                         <map>
                           <entry key="src/Main.java">
@@ -1402,9 +1402,44 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/Main.java" />
                                 <option name="text" value="import java.util.*;&#10;import java.util.stream.Collectors;&#10;&#10;public class Main {&#10;&#10;    public static void inverseFlags(/* write a parameter here */) {&#10;        // write your code here&#10;    }&#10;&#10;    /* Do not change code below */&#10;    public static void main(String args[]) {&#10;        final Scanner scanner = new Scanner(System.in);&#10;        final List&lt;Boolean&gt; booleans = Arrays&#10;                .stream(scanner.nextLine().split(&quot;\\s+&quot;))&#10;                .map(Boolean::parseBoolean)&#10;                .collect(Collectors.toList());&#10;        final boolean[] flags = new boolean[booleans.size()];&#10;        for (int i = 0; i &lt; flags.length; i++) {&#10;            flags[i] = booleans.get(i);&#10;        }&#10;        inverseFlags(flags);&#10;        final String representation = Arrays.toString(flags)&#10;                .replace(&quot;[&quot;, &quot;&quot;)&#10;                .replace(&quot;]&quot;, &quot;&quot;)&#10;                .replace(&quot;,&quot;, &quot;&quot;);&#10;        System.out.println(representation);&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Sorting numbers&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/2245&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  Implement a method for sorting a given array of integers in the ascending order. &#10;  &lt;p&gt;You can use any algorithm for sorting it.&lt;/p&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;3 1 2&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;1 2 3 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3594&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/2245" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="2245" />
+                      <option name="index" value="20" />
+                      <option name="name" value="Sorting numbers" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="import java.util.Arrays;&#10;import java.util.Scanner;&#10;&#10;public class Main {&#10;&#10;    public static void sort(int[] numbers) {&#10;        // write your code here&#10;    }&#10;&#10;    /* Do not change code below */&#10;    public static void main(String[] args) {&#10;        final Scanner scanner = new Scanner(System.in);&#10;        String[] values = scanner.nextLine().split(&quot;\\s+&quot;);&#10;        int[] numbers = Arrays.stream(values)&#10;                .mapToInt(Integer::parseInt)&#10;                .toArray();&#10;        sort(numbers);&#10;        Arrays.stream(numbers).forEach(e -&gt; System.out.print(e + &quot; &quot;));&#10;    }&#10;}" />
                                 <option name="trackChanges" value="true" />
                                 <option name="visible" value="true" />
                               </TaskFile>
