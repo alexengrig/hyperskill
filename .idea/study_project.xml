@@ -1778,6 +1778,76 @@
                       <option name="index" value="30" />
                       <option name="name" value="Binary search" />
                       <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="/**&#10; * @param nums ordered sequence of integers&#10; * @param key an element for searching&#10; * @return index of key or a negative value&#10; */&#10;public static int callBinarySearch(int[] nums, int key) {&#10;    // write your code here&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Complex numbers&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/2986&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  Write a class named &#10;  &lt;code class=&quot;java&quot;&gt;Complex&lt;/code&gt;. It must have two double fields &#10;  &lt;code class=&quot;java&quot;&gt;real&lt;/code&gt;, &#10;  &lt;code class=&quot;java&quot;&gt;image&lt;/code&gt; and a constructor to initialize the fields. The order of parameters in the constructor must be the same as presented above.&#10;  &lt;div&gt;&#10;   &lt;br&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   Do not make fields and the constructor &#10;   &lt;code class=&quot;java&quot;&gt;private&lt;/code&gt;.&#10;  &lt;/div&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3535&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/2986" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="2986" />
+                      <option name="index" value="31" />
+                      <option name="name" value="Complex numbers" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="// write the class Complex here" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Book&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/2985&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;p&gt;Write a class named &lt;code&gt;Book&lt;/code&gt;. It must have three fields: a string field &lt;code&gt;title&lt;/code&gt;, an int field &lt;code&gt;yearOfPublishing&lt;/code&gt;, an array of strings &lt;code&gt;authors&lt;/code&gt; and a constructor to initialize these fields. The order of parameters in the constructor must be the same as presented above.&lt;/p&gt; &#10;  &lt;p&gt;Do not make the fields and the constructor &lt;code&gt;private&lt;/code&gt;.&lt;/p&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3535&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/2985" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="2985" />
+                      <option name="index" value="32" />
+                      <option name="name" value="Book" />
+                      <option name="record" value="-1" />
                       <option name="status" value="Unchecked" />
                       <option name="files">
                         <map>
@@ -1789,7 +1859,7 @@
                                 </option>
                                 <option name="highlightErrors" value="false" />
                                 <option name="name" value="src/Main.java" />
-                                <option name="text" value="/**&#10; * @param nums ordered sequence of integers&#10; * @param key an element for searching&#10; * @return index of key or a negative value&#10; */&#10;public static int callBinarySearch(int[] nums, int key) {&#10;    // write your code here&#10;}" />
+                                <option name="text" value="// write your class here" />
                                 <option name="trackChanges" value="true" />
                                 <option name="visible" value="true" />
                               </TaskFile>
