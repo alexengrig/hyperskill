@@ -1953,6 +1953,41 @@
                       <option name="index" value="35" />
                       <option name="name" value="Preparing full name" />
                       <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="import java.util.Scanner;&#10;&#10;public class Main {&#10;&#10;    public static String prepareFullName(String firstName, String lastName) {&#10;        // write your code here&#10;    }&#10;&#10;    /* Do not change code below */&#10;    public static void main(String[] args) {&#10;        final Scanner scanner = new Scanner(System.in);&#10;&#10;        String firstName = scanner.nextLine();&#10;        firstName = &quot;null&quot;.equals(firstName) ? null : firstName;&#10;&#10;        String lastName = scanner.nextLine();&#10;        lastName = &quot;null&quot;.equals(lastName) ? null : lastName;&#10;&#10;        System.out.println(prepareFullName(firstName, lastName));&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Car&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/2988&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;p&gt;You want to create a program that models the behavior of cars. For this purpose, you've created&amp;nbsp;a class named &lt;code&gt;Car&lt;/code&gt; containing three fields: the int field &lt;code&gt;yearModel&lt;/code&gt;, the string field &lt;code&gt;make&lt;/code&gt;, and the int field &lt;code&gt;speed&lt;/code&gt;.&lt;/p&gt; &#10;  &lt;p&gt;You want to add functionality to your cars, so you need methods. Add the following instance methods to your class:&lt;/p&gt; &#10;  &lt;ul&gt; &#10;   &lt;li&gt;&lt;code&gt;accelerate&lt;/code&gt;&amp;nbsp;that adds 5 to the speed each time it's called;&lt;/li&gt; &#10;   &lt;li&gt;&lt;code&gt;brake&lt;/code&gt;&amp;nbsp;that subtracts 5 from the speed field each time it's called, the speed cannot be less than zero.&lt;/li&gt; &#10;  &lt;/ul&gt; &#10;  &lt;p&gt;Do not make the fields and methods &lt;code&gt;private&lt;/code&gt;.&lt;/p&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3495&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/2988" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="2988" />
+                      <option name="index" value="36" />
+                      <option name="name" value="Car" />
+                      <option name="record" value="-1" />
                       <option name="status" value="Unchecked" />
                       <option name="files">
                         <map>
@@ -1964,7 +1999,7 @@
                                 </option>
                                 <option name="highlightErrors" value="false" />
                                 <option name="name" value="src/Main.java" />
-                                <option name="text" value="import java.util.Scanner;&#10;&#10;public class Main {&#10;&#10;    public static String prepareFullName(String firstName, String lastName) {&#10;        // write your code here&#10;    }&#10;&#10;    /* Do not change code below */&#10;    public static void main(String[] args) {&#10;        final Scanner scanner = new Scanner(System.in);&#10;&#10;        String firstName = scanner.nextLine();&#10;        firstName = &quot;null&quot;.equals(firstName) ? null : firstName;&#10;&#10;        String lastName = scanner.nextLine();&#10;        lastName = &quot;null&quot;.equals(lastName) ? null : lastName;&#10;&#10;        System.out.println(prepareFullName(firstName, lastName));&#10;    }&#10;}" />
+                                <option name="text" value="class Car {&#10;&#10;    int yearModel;&#10;    String make;&#10;    int speed;&#10;}" />
                                 <option name="trackChanges" value="true" />
                                 <option name="visible" value="true" />
                               </TaskFile>
