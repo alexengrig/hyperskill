@@ -1904,6 +1904,41 @@
                       </option>
                       <option name="updateDate" />
                     </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Army&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/3659&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;p&gt;You decide to recall the happy days of your&amp;nbsp;childhood and play&amp;nbsp;Heroes. Of course, you need the army.&lt;/p&gt; &#10;  &lt;p&gt;&lt;img alt=&quot;&quot; height=&quot;21&quot; src=&quot;https://ucarecdn.com/30b1850a-4aed-4a63-a026-7ea80a12a6de/&quot; style=&quot;float: left;&quot; width=&quot;124&quot;&gt;&lt;/p&gt; &#10;  &lt;p&gt;&amp;nbsp;&lt;/p&gt; &#10;  &lt;p&gt;1.&amp;nbsp;Your task is &lt;strong&gt;to create objects: &lt;/strong&gt;5 Unit, 3 Knight, 1 General, 1 Doctor.&lt;/p&gt; &#10;  &lt;p&gt;2.&amp;nbsp;Don't forget&amp;nbsp;&lt;strong&gt;to give them names!&lt;/strong&gt;&lt;/p&gt; &#10;  &lt;pre&gt;&lt;code&gt;class Unit {    &#10;    String nameUnit;&#10;    &#10;    public Unit(String name){&#10;        nameUnit = name;&#10;    }&#10;}&#10;class Knight {&#10;    String nameKnight;&#10;    public Knight(String name){&#10;        nameKnight = name;&#10;    }&#10;}&#10;class General {&#10;    String nameGeneral;&#10;    &#10;    public General(String name){&#10;        nameGeneral = name;&#10;    }&#10;}&#10;class Doctor {&#10;    String nameDoctor;&#10;    &#10;    public Doctor(String name){&#10;        nameDoctor = name;&#10;    }&#10;}&lt;/code&gt;&lt;/pre&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/4727&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/3659" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="3659" />
+                      <option name="index" value="34" />
+                      <option name="name" value="Army" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="public static void createArmy(){&#10;&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" />
+                    </CodeTask>
                   </list>
                 </option>
               </Lesson>
