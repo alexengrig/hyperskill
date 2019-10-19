@@ -564,7 +564,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="test/EncryptDecryptTest.java" />
                                 <option name="text" value="import encryptdecrypt.Main;&#10;import org.hyperskill.hstest.v6.stage.BaseStageTest;&#10;import org.hyperskill.hstest.v6.testcase.PredefinedIOTestCase;&#10;&#10;import java.util.List;&#10;&#10;public class EncryptDecryptTest extends BaseStageTest {&#10;    public EncryptDecryptTest() throws Exception {&#10;        super(Main.class);&#10;    }&#10;&#10;    @Override&#10;    public List&lt;PredefinedIOTestCase&gt; generate() {&#10;        return List.of(&#10;            new PredefinedIOTestCase(&#10;                &quot;enc\n&quot; +&#10;                    &quot;Welcome to hyperskill!\n&quot; +&#10;                    &quot;5&quot;,&#10;                &quot;\\jqhtrj%yt%m~ujwxpnqq&amp;&quot;),&#10;            new PredefinedIOTestCase(&#10;                &quot;enc\n&quot; +&#10;                    &quot;Hello\n&quot; +&#10;                    &quot;0&quot;,&#10;                &quot;Hello&quot;),&#10;            new PredefinedIOTestCase(&#10;                &quot;enc\n&quot; +&#10;                    &quot;012345678\n&quot; +&#10;                    &quot;1&quot;,&#10;                &quot;123456789&quot;),&#10;            new PredefinedIOTestCase(&#10;                &quot;dec\n&quot; +&#10;                    &quot;\\jqhtrj%yt%m~ujwxpnqq&amp;\n&quot; +&#10;                    &quot;5&quot;,&#10;                &quot;Welcome to hyperskill!&quot;),&#10;            new PredefinedIOTestCase(&#10;                &quot;dec\n&quot; +&#10;                    &quot;Hello\n&quot; +&#10;                    &quot;0&quot;,&#10;                &quot;Hello&quot;),&#10;            new PredefinedIOTestCase(&#10;                &quot;dec\n&quot; +&#10;                    &quot;222233334444\n&quot; +&#10;                    &quot;1&quot;,&#10;                &quot;111122223333&quot;)&#10;        );&#10;    }&#10;}&#10;" />
                                 <option name="trackChanges" value="true" />
@@ -1238,6 +1238,41 @@
                         </map>
                       </option>
                       <option name="updateDate" value="1541088493000" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;The largest element of a sequence&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/2230&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;p&gt;&lt;span&gt;Given the sequence of integer numbers (which ends with the number 0). Find the largest element of the sequence.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&#10;  &lt;p&gt;The number 0 itself is not included in the sequence but serves only as a sign of the sequence’s end.&lt;/p&gt; &#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;1&lt;br&gt;7&lt;br&gt;9&lt;br&gt;0&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;9&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 1s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3498&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/2230" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="2230" />
+                      <option name="index" value="15" />
+                      <option name="name" value="The largest element of a sequence" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="class Main {&#10;    public static void main(String[] args) {&#10;        // put your code here&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" />
                     </CodeTask>
                   </list>
                 </option>
