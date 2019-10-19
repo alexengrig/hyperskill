@@ -1449,6 +1449,41 @@
                       </option>
                       <option name="updateDate" />
                     </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Calculator - 1&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/3333&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  Write a program that takes an operator (&quot;+&quot;, &quot;-&quot;, &quot;*&quot;) and two values as the command-line arguments and then outputs the result of the operator in the standard output. &#10;  &lt;span&gt;If the passed operator is not from the list, it must output the string &lt;/span&gt;&#10;  &lt;b&gt;&quot;Unknown operator&quot;&lt;/b&gt;&#10;  &lt;span&gt; without quotes.&lt;/span&gt;&#10;  &lt;div&gt;&#10;   &lt;span&gt;&lt;br&gt;&lt;/span&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   &lt;span&gt;Please, do not rename the provided class &lt;code class=&quot;java&quot;&gt;Problem&lt;/code&gt;.&lt;br&gt;&lt;/span&gt;&#10;  &lt;/div&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;+ 10 20&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;30&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;^ 2 10&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;Unknown operator&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3566&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/3333" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="3333" />
+                      <option name="index" value="21" />
+                      <option name="name" value="Calculator - 1" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="class Problem {&#10;&#10;    public static void main(String args[]) {&#10;&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" />
+                    </CodeTask>
                   </list>
                 </option>
               </Lesson>
