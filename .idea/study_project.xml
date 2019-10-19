@@ -1358,6 +1358,41 @@
                       <option name="index" value="18" />
                       <option name="name" value="Adding values" />
                       <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="import java.util.*;&#10;&#10;public class Main {&#10;&#10;    // write a method here&#10;&#10;    public static void main(String args[]) {&#10;        Scanner scanner = new Scanner(System.in);&#10;        long[] array = Arrays.stream(scanner.nextLine().split(&quot; &quot;))&#10;                .mapToLong(Long::parseLong)&#10;                .toArray();&#10;        int index = scanner.nextInt();&#10;        long value = scanner.nextLong();&#10;        addValueByIndex(array, index, value);&#10;        Arrays.stream(array).forEach(e -&gt; System.out.print(e + &quot; &quot;));&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Inverse boolean flags&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/2744&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  Write a body and a parameter of the method &#10;  &lt;code class=&quot;java&quot;&gt;inverseFlags&lt;/code&gt;. &#10;  &lt;span&gt;The method must take an array of booleans and negates each of them. Do not make a copy of the parameter, change elements of a passed array.&lt;/span&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;true false true&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;false true false&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3594&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/2744" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="2744" />
+                      <option name="index" value="19" />
+                      <option name="name" value="Inverse boolean flags" />
+                      <option name="record" value="-1" />
                       <option name="status" value="Unchecked" />
                       <option name="files">
                         <map>
@@ -1369,7 +1404,7 @@
                                 </option>
                                 <option name="highlightErrors" value="false" />
                                 <option name="name" value="src/Main.java" />
-                                <option name="text" value="import java.util.*;&#10;&#10;public class Main {&#10;&#10;    // write a method here&#10;&#10;    public static void main(String args[]) {&#10;        Scanner scanner = new Scanner(System.in);&#10;        long[] array = Arrays.stream(scanner.nextLine().split(&quot; &quot;))&#10;                .mapToLong(Long::parseLong)&#10;                .toArray();&#10;        int index = scanner.nextInt();&#10;        long value = scanner.nextLong();&#10;        addValueByIndex(array, index, value);&#10;        Arrays.stream(array).forEach(e -&gt; System.out.print(e + &quot; &quot;));&#10;    }&#10;}" />
+                                <option name="text" value="import java.util.*;&#10;import java.util.stream.Collectors;&#10;&#10;public class Main {&#10;&#10;    public static void inverseFlags(/* write a parameter here */) {&#10;        // write your code here&#10;    }&#10;&#10;    /* Do not change code below */&#10;    public static void main(String args[]) {&#10;        final Scanner scanner = new Scanner(System.in);&#10;        final List&lt;Boolean&gt; booleans = Arrays&#10;                .stream(scanner.nextLine().split(&quot;\\s+&quot;))&#10;                .map(Boolean::parseBoolean)&#10;                .collect(Collectors.toList());&#10;        final boolean[] flags = new boolean[booleans.size()];&#10;        for (int i = 0; i &lt; flags.length; i++) {&#10;            flags[i] = booleans.get(i);&#10;        }&#10;        inverseFlags(flags);&#10;        final String representation = Arrays.toString(flags)&#10;                .replace(&quot;[&quot;, &quot;&quot;)&#10;                .replace(&quot;]&quot;, &quot;&quot;)&#10;                .replace(&quot;,&quot;, &quot;&quot;);&#10;        System.out.println(representation);&#10;    }&#10;}" />
                                 <option name="trackChanges" value="true" />
                                 <option name="visible" value="true" />
                               </TaskFile>
