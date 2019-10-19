@@ -1519,6 +1519,41 @@
                       </option>
                       <option name="updateDate" />
                     </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Calculator - 2&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/3335&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;p&gt;Write a program that takes an operator (&quot;MAX&quot;, &quot;MIN&quot;, &quot;SUM&quot;) and a sequence of numbers as the command-line arguments and then outputs the result of the operator in the standard output.&lt;/p&gt; &#10;  &lt;p&gt;The description of the operators:&lt;/p&gt; &#10;  &lt;ul&gt; &#10;   &lt;li&gt;&quot;MAX&quot; finds the max value of a sequence of numbers;&lt;/li&gt; &#10;   &lt;li&gt;&quot;MIN&quot; find the min value of a sequence of numbers&lt;/li&gt; &#10;   &lt;li&gt;&quot;SUM&quot; calculates the sum of a sequence of numbers.&lt;/li&gt; &#10;  &lt;/ul&gt; &#10;  &lt;p&gt;It is guaranteed that a correct operator&amp;nbsp;and at least one number will be passed to the program.&lt;/p&gt; &#10;  &lt;p&gt;Please, do not rename the provided class &lt;code&gt;Problem&lt;/code&gt;.&lt;/p&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;MAX 7 3 4 1 8 11 3 2&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;11&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3566&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/3335" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="3335" />
+                      <option name="index" value="23" />
+                      <option name="name" value="Calculator - 2" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="class Problem {&#10;&#10;    public static void main(String args[]) {&#10;&#10;        for (int i = 0; i &lt; args.length; i++) {&#10;            if (args[i].equals(&quot;test&quot;)) {&#10;                System.out.println(i);&#10;                break;&#10;            }&#10;        }&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" />
+                    </CodeTask>
                   </list>
                 </option>
               </Lesson>
