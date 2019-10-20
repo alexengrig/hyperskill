@@ -1988,6 +1988,76 @@
                       <option name="index" value="36" />
                       <option name="name" value="Car" />
                       <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="class Car {&#10;&#10;    int yearModel;&#10;    String make;&#10;    int speed;&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Circle&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/2955&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;p&gt;Given is a class named &lt;code&gt;Circle&lt;/code&gt;. This class has one double field &lt;code&gt;radius&lt;/code&gt;.&lt;/p&gt; &#10;  &lt;p&gt;Create two instance methods for this class:&lt;/p&gt; &#10;  &lt;ul&gt; &#10;   &lt;li&gt;&lt;code&gt;getLength&lt;/code&gt;&amp;nbsp;that returns the double length of the circumference﻿&amp;nbsp;of this circle;&lt;/li&gt; &#10;   &lt;li&gt;&lt;code&gt;getArea&lt;/code&gt;&amp;nbsp;that returns the double area of this circle.&lt;/li&gt; &#10;  &lt;/ul&gt; &#10;  &lt;p&gt;In your calculations, you may use the special constant &lt;code&gt;Math.PI&lt;/code&gt;.&amp;nbsp;&lt;/p&gt; &#10;  &lt;p&gt;Do not make the field and methods &lt;code&gt;private&lt;/code&gt;.&lt;/p&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3495&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/2955" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="2955" />
+                      <option name="index" value="37" />
+                      <option name="name" value="Circle" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="class Circle {&#10;&#10;    double radius;&#10;&#10;    // write methods here&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" value="Complex numbers" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Complex numbers&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/2952&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;p&gt;Jake wants to write a program that works with complex numbers. He created a&amp;nbsp;class&amp;nbsp;&lt;code&gt;Complex&lt;/code&gt;&amp;nbsp;that represents a complex number with its real and imaginary parts. Now he needs instance methods so that he can calculate the sum and difference of two complex numbers.&lt;/p&gt; &#10;  &lt;p&gt;Help Jake and create two instance methods for his class:&lt;/p&gt; &#10;  &lt;ul&gt; &#10;   &lt;li&gt;&lt;code&gt;add&lt;/code&gt;&amp;nbsp;that takes another complex number as an argument and adds its corresponding fields to the current instance;&lt;/li&gt; &#10;   &lt;li&gt;&lt;code&gt;subtract&lt;/code&gt;&amp;nbsp;that takes another complex number as an argument and subtracts its corresponding fields from the current instance;&lt;/li&gt; &#10;  &lt;/ul&gt; &#10;  &lt;p&gt;Both methods should return nothing.&lt;/p&gt; &#10;  &lt;p&gt;Do not make the fields and methods &lt;code&gt;private&lt;/code&gt;.&lt;/p&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3495&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/2952" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="2952" />
+                      <option name="index" value="38" />
+                      <option name="name" value="Complex numbers (1)" />
+                      <option name="record" value="-1" />
                       <option name="status" value="Unchecked" />
                       <option name="files">
                         <map>
@@ -1997,9 +2067,9 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/Main.java" />
-                                <option name="text" value="class Car {&#10;&#10;    int yearModel;&#10;    String make;&#10;    int speed;&#10;}" />
+                                <option name="text" value="class Complex {&#10;&#10;    double real;&#10;    double image;&#10;&#10;    // write methods here&#10;}" />
                                 <option name="trackChanges" value="true" />
                                 <option name="visible" value="true" />
                               </TaskFile>
